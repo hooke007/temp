@@ -1,0 +1,1217 @@
+[   0.007][v][cplayer] mpv 0.32.0-456-g4e94b2177a Copyright © 2000-2020 mpv/MPlayer/mplayer2 projects
+[   0.007][v][cplayer]  built on Sun May 10 23:34:45 +08 2020
+[   0.007][v][cplayer] FFmpeg library versions:
+[   0.007][v][cplayer]    libavutil       56.43.100
+[   0.007][v][cplayer]    libavcodec      58.83.100
+[   0.007][v][cplayer]    libavformat     58.43.100
+[   0.007][v][cplayer]    libswscale      5.6.101
+[   0.007][v][cplayer]    libavfilter     7.80.100
+[   0.007][v][cplayer]    libswresample   3.6.100
+[   0.007][v][cplayer] FFmpeg version: git-2020-05-10-5727b1f13
+[   0.007][v][cplayer] 
+[   0.007][v][cplayer] Configuration: /home/shinchiro/build/build64/packages/mpv-prefix/src/mpv/waf configure --enable-static-build --enable-pdf-build --disable-manpage-build --enable-libmpv-shared --enable-lua --enable-javascript --enable-sdl2 --enable-libarchive --enable-libbluray --enable-dvdnav --enable-uchardet --enable-rubberband --enable-lcms2 --enable-openal --enable-spirv-cross --enable-vulkan --enable-vapoursynth --prefix=/home/shinchiro/build/build64/install/mingw
+[   0.007][v][cplayer] List of enabled features: asm build-date cplayer cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug-build direct3d dos-paths dvdnav egl-angle egl-angle-win32 egl-helpers ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libm libmpv-shared libplacebo lua luajit mingw noexecstack openal optimize plain-gl posix-or-mingw rubberband sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc shaderc-static spirv-cross spirv-cross-static static-build stdatomic uchardet vapoursynth vulkan wasapi win32-desktop win32-internal-pthreads zimg zlib
+[   0.007][v][cplayer] Command line options: '--no-config' '--d3d11-output-csp=pq' '--log-file=mpv_sucks.log' 'D:\linshi\[LoliHouse]SolLevante[MasterRip2160pHEVC-10bitHDRFLACx2].mkv'
+[   0.007][v][cplayer] mpv 0.32.0-456-g4e94b2177a Copyright © 2000-2020 mpv/MPlayer/mplayer2 projects
+[   0.007][v][cplayer]  built on Sun May 10 23:34:45 +08 2020
+[   0.007][v][cplayer] FFmpeg library versions:
+[   0.007][v][cplayer]    libavutil       56.43.100
+[   0.007][v][cplayer]    libavcodec      58.83.100
+[   0.007][v][cplayer]    libavformat     58.43.100
+[   0.007][v][cplayer]    libswscale      5.6.101
+[   0.007][v][cplayer]    libavfilter     7.80.100
+[   0.007][v][cplayer]    libswresample   3.6.100
+[   0.007][v][cplayer] FFmpeg version: git-2020-05-10-5727b1f13
+[   0.007][v][cplayer] 
+[   0.007][v][cplayer] Configuration: /home/shinchiro/build/build64/packages/mpv-prefix/src/mpv/waf configure --enable-static-build --enable-pdf-build --disable-manpage-build --enable-libmpv-shared --enable-lua --enable-javascript --enable-sdl2 --enable-libarchive --enable-libbluray --enable-dvdnav --enable-uchardet --enable-rubberband --enable-lcms2 --enable-openal --enable-spirv-cross --enable-vulkan --enable-vapoursynth --prefix=/home/shinchiro/build/build64/install/mingw
+[   0.007][v][cplayer] List of enabled features: asm build-date cplayer cuda-hwaccel cuda-interop d3d-hwaccel d3d11 d3d9-hwaccel debug-build direct3d dos-paths dvdnav egl-angle egl-angle-win32 egl-helpers ffmpeg ffnvcodec gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gpl iconv javascript jpeg lcms2 libarchive libass libavdevice libbluray libm libmpv-shared libplacebo lua luajit mingw noexecstack openal optimize plain-gl posix-or-mingw rubberband sdl2 sdl2-audio sdl2-gamepad sdl2-video shaderc shaderc-static spirv-cross spirv-cross-static static-build stdatomic uchardet vapoursynth vulkan wasapi win32-desktop win32-internal-pthreads zimg zlib
+[   0.008][d][global] config path: '' -> '-'
+[   0.008][v][cplayer] Setting option 'config' = 'no' (flags = 8)
+[   0.008][v][cplayer] Setting option 'd3d11-output-csp' = 'pq' (flags = 8)
+[   0.008][v][cplayer] Setting option 'log-file' = 'mpv_sucks.log' (flags = 8)
+[   0.009][d][global] user path: 'mpv_sucks.log' -> 'mpv_sucks.log'
+[   0.009][d][osc] Loading lua script @osc.lua...
+[   0.009][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.009][d][stats] Loading lua script @stats.lua...
+[   0.009][d][console] Loading lua script @console.lua...
+[   0.009][d][osc] loading mp.defaults
+[   0.009][d][ytdl_hook] loading mp.defaults
+[   0.009][v][cplayer] Waiting for scripts...
+[   0.009][d][stats] loading mp.defaults
+[   0.009][d][console] loading mp.defaults
+[   0.010][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.010][d][osc] loading @osc.lua
+[   0.010][d][console] loading @console.lua
+[   0.010][d][stats] loading @stats.lua
+[   0.010][d][ytdl_hook] reading options for ytdl_hook 
+[   0.010][d][ytdl_hook] script-opts/ytdl_hook.conf not found. 
+[   0.010][d][ytdl_hook] lua-settings/ytdl_hook.conf not found. 
+[   0.010][d][console] reading options for console 
+[   0.010][d][console] script-opts/console.conf not found. 
+[   0.010][d][console] lua-settings/console.conf not found. 
+[   0.011][d][osd/libass] ASS library version: 0x1400001 (runtime 0x1400001)
+[   0.011][d][stats] reading options for stats 
+[   0.011][d][stats] script-opts/stats.conf not found. 
+[   0.011][d][stats] lua-settings/stats.conf not found. 
+[   0.011][d][osc] reading options for osc 
+[   0.011][d][osc] script-opts/osc.conf not found. 
+[   0.011][d][osc] lua-settings/osc.conf not found. 
+[   0.011][v][osd/libass] Shaper: FriBidi 1.0.9 (SIMPLE) HarfBuzz-ng 2.6.5 (COMPLEX)
+[   0.011][v][osd/libass] Setting up fonts...
+[   0.016][v][osd/libass] Using font provider directwrite
+[   0.016][v][osd/libass] Done.
+[   0.017][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.017][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.017][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.018][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="i script-binding stats/display-stats\nI script-binding stats/display-stats-toggle\n", flags="default"]
+[   0.018][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.018][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.018][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.018][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.018][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding osc/__keybinding1\nmouse_leave script-binding osc/__keybinding2\n", flags="force"]
+[   0.018][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding osc/__keybinding3\nmouse_leave script-binding osc/__keybinding4\n", flags="force"]
+[   0.018][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.018][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.018][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding osc/__keybinding5\nshift+mbtn_left script-binding osc/__keybinding6\nmbtn_right script-binding osc/__keybinding7\nmbtn_mid script-binding osc/__keybinding8\nwheel_up script-binding osc/__keybinding9\nwheel_down script-binding osc/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.018][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.018][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding osc/__keybinding11\n", flags="force"]
+[   0.018][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.018][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.018][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.018][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.018][v][cplayer] Set property: shared-script-properties -> 1
+[   0.019][v][cplayer] Done loading scripts.
+[   0.019][d][global] config path: 'watch_later' -> '-'
+[   0.019][d][global] config path: 'watch_later' -> '-'
+[   0.019][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.019][v][ytdl_hook] ytdl:// hook 
+[   0.019][v][ytdl_hook] not a ytdl:// url 
+[   0.019][d][osc] osc_init 
+[   0.019][v][ifo_dvdnav] Opening D:\linshi\[LoliHouse]SolLevante[MasterRip2160pHEVC-10bitHDRFLACx2].mkv
+[   0.019][v][bdmv/bluray] Opening D:\linshi\[LoliHouse]SolLevante[MasterRip2160pHEVC-10bitHDRFLACx2].mkv
+[   0.019][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.019][v][cplayer] Set property: shared-script-properties -> 1
+[   0.019][v][file] Opening D:\linshi\[LoliHouse]SolLevante[MasterRip2160pHEVC-10bitHDRFLACx2].mkv
+[   0.019][d][osd/libass] ASS library version: 0x1400001 (runtime 0x1400001)
+[   0.019][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.019][d][file] Stream opened successfully.
+[   0.019][v][demux] Trying demuxers for level=normal.
+[   0.019][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.019][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.020][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.020][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.020][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.020][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.020][d][mkv] Found the head...
+[   0.020][d][mkv] + a segment...
+[   0.020][d][mkv] Parsing seek head...
+[   0.020][d][mkv] |+ segment information...
+[   0.020][d][mkv] float 263084.000000
+[   0.020][d][mkv] | + muxing app: libebml v1.3.10 + libmatroska v1.5.2
+[   0.020][d][mkv] | + writing app: mkvmerge v45.0.0 ('Heaven in Pennies') 64-bit
+[   0.020][d][mkv] | + timecode scale: 1000000
+[   0.020][d][mkv] | + duration: 263.084s
+[   0.020][d][mkv] | + segment uid 2a 45 6e 92 7b f8 d5 3a bd ef b0 07 8b b8 f6 b5
+[   0.020][d][mkv] |+ segment tracks...
+[   0.020][d][mkv] float 48000.000000
+[   0.020][d][mkv] float 48000.000000
+[   0.020][d][mkv] | + a track...
+[   0.020][d][mkv] |  + Track number: 1
+[   0.020][d][mkv] |  + Track type: Video
+[   0.020][d][mkv] |  + Video track
+[   0.020][d][mkv] |   + Display width: 3840
+[   0.020][d][mkv] |   + Display height: 2160
+[   0.020][d][mkv] |   + Pixel width: 3840
+[   0.020][d][mkv] |   + Pixel height: 2160
+[   0.020][d][mkv] |  + Codec ID: V_MPEGH/ISO/HEVC
+[   0.020][d][mkv] |  + CodecPrivate, length 2361
+[   0.020][d][mkv] |  + Language: und
+[   0.020][d][mkv] |  + Default duration: 41.667ms ( = 24.000 fps)
+[   0.020][d][mkv] | + a track...
+[   0.020][d][mkv] |  + Track number: 2
+[   0.020][d][mkv] |  + Track type: Audio
+[   0.020][d][mkv] |  + Audio track
+[   0.020][d][mkv] |   + Sampling frequency: 48000.000000
+[   0.020][d][mkv] |   + Bit depth: 24
+[   0.020][d][mkv] |   + Channels: 2
+[   0.020][d][mkv] |  + Codec ID: A_FLAC
+[   0.020][d][mkv] |  + CodecPrivate, length 113
+[   0.020][d][mkv] |  + Language: jpn
+[   0.020][d][mkv] |  + Default duration: 85.333ms ( = 11.719 fps)
+[   0.020][d][mkv] | + a track...
+[   0.020][d][mkv] |  + Track number: 3
+[   0.020][d][mkv] |  + Track type: Audio
+[   0.020][d][mkv] |  + Audio track
+[   0.020][d][mkv] |   + Sampling frequency: 48000.000000
+[   0.020][d][mkv] |   + Bit depth: 24
+[   0.020][d][mkv] |   + Channels: 6
+[   0.020][d][mkv] |  + Codec ID: A_FLAC
+[   0.020][d][mkv] |  + CodecPrivate, length 113
+[   0.020][d][mkv] |  + Language: jpn
+[   0.020][d][mkv] |  + Default flag: 0
+[   0.020][d][mkv] |  + Default duration: 85.333ms ( = 11.719 fps)
+[   0.020][d][mkv] |+ found cluster
+[   0.020][v][mkv] Seeking to 1220207005 to read header element 0x1c53bb6b.
+[   0.020][v][file] stream level seek from 131072 to 1220207005
+[   0.020][v][mkv] Parsing cues...
+[   0.020][v][mkv] Seeking to 1220208247 to read header element 0x1254c367.
+[   0.020][v][file] stream level seek from 1220209427 to 8114
+[   0.020][v][mkv] All headers are parsed!
+[   0.020][v][demux] Detected file format: Matroska
+[   0.020][v][cplayer] Opening done: D:\linshi\[LoliHouse]SolLevante[MasterRip2160pHEVC-10bitHDRFLACx2].mkv
+[   0.020][v][osd/libass] Shaper: FriBidi 1.0.9 (SIMPLE) HarfBuzz-ng 2.6.5 (COMPLEX)
+[   0.020][v][osd/libass] Setting up fonts...
+[   0.022][v][osd/libass] Using font provider directwrite
+[   0.022][v][osd/libass] Done.
+[   0.023][v][find_files] Loading external files in D:\linshi\
+[   0.023][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.023][d][cplayer] Run command: define-section, flags=64, args=[name="input_osc", contents="", flags="default"]
+[   0.023][v][mkv] select track 0
+[   0.023][v][mkv] select track 1
+[   0.024][i][cplayer]  (+) Video --vid=1 (*) (hevc 3840x2160 24.000fps)
+[   0.025][i][cplayer]  (+) Audio --aid=1 --alang=jpn (*) (flac 2ch 48000Hz)
+[   0.025][i][cplayer]      Audio --aid=2 --alang=jpn (flac 6ch 48000Hz)
+[   0.025][v][vo/gpu] Probing for best GPU context.
+[   0.025][v][vo/gpu/d3d11] Initializing GPU context 'd3d11'
+[   0.077][v][vo/gpu/d3d11] Using Direct3D 11 feature level 12_1
+[   0.077][v][vo/gpu/d3d11] Device Name: NVIDIA GeForce RTX 2070 Super
+[   0.077][v][vo/gpu/d3d11] Device ID: 10de:1e91 (rev a1)
+[   0.077][v][vo/gpu/d3d11] Subsystem ID: 1d05:108a
+[   0.077][v][vo/gpu/d3d11] LUID: 0000000000011cf6
+[   0.077][v][vo/gpu/d3d11] Initializing SPIR-V compiler 'shaderc'
+[   0.077][v][vo/gpu/d3d11] Using Direct3D 11.1 runtime
+[   0.077][v][vo/gpu/d3d11] Maximum Texture2D size: 16384x16384
+[   0.078][v][vo/gpu/d3d11] D3DCompiler version: 10.0.18362.1
+[   0.091][v][vo/gpu/d3d11] Using DXGI 1.2+
+[   0.091][v][vo/gpu/d3d11] Queried output: \\.\DISPLAY4, 3840x2160 @ 10 bits, colorspace: RGB_FULL_G22_NONE_P709 (0)
+[   0.091][v][vo/gpu/d3d11] Selected swapchain format R10G10B10A2_UNORM (24), attempting to utilize it.
+[   0.092][v][vo/gpu/d3d11] Selected swapchain color space RGB_FULL_G2084_NONE_P2020 (12), attempting to utilize it.
+[   0.092][v][vo/gpu/d3d11] Swapchain capabilities for color space RGB_FULL_G2084_NONE_P2020 (12): normal: yes, overlay: no
+[   0.092][v][vo/gpu/d3d11] Swapchain successfully configured to color space RGB_FULL_G2084_NONE_P2020 (12)!
+[   0.092][v][vo/gpu/d3d11] Using flip-model presentation
+[   0.092][d][vo/gpu/d3d11] Texture formats:
+[   0.092][d][vo/gpu/d3d11]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   0.092][d][vo/gpu/d3d11]   r8         1*unorm   1B    LF CR ST {8}
+[   0.092][d][vo/gpu/d3d11]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   0.092][d][vo/gpu/d3d11]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.092][d][vo/gpu/d3d11]   r16        1*unorm   2B    LF CR ST {16}
+[   0.092][d][vo/gpu/d3d11]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   0.092][d][vo/gpu/d3d11]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.092][d][vo/gpu/d3d11]   r32ui      1*uint    4B          ST {32}
+[   0.092][d][vo/gpu/d3d11]   rg32ui     2*uint    8B          ST {32 32}
+[   0.092][d][vo/gpu/d3d11]   rgb32ui    3*uint   12B             {32 32 32}
+[   0.092][d][vo/gpu/d3d11]   rgba32ui   4*uint   16B          ST {32 32 32 32}
+[   0.092][d][vo/gpu/d3d11]   r16hf      1*float   2B    LF CR ST {16}
+[   0.092][d][vo/gpu/d3d11]   rg16hf     2*float   4B    LF CR ST {16 16}
+[   0.092][d][vo/gpu/d3d11]   rgba16hf   4*float   8B    LF CR ST {16 16 16 16}
+[   0.092][d][vo/gpu/d3d11]   r32f       1*float   4B    LF CR ST {32}
+[   0.092][d][vo/gpu/d3d11]   rg32f      2*float   8B    LF CR ST {32 32}
+[   0.092][d][vo/gpu/d3d11]   rgb32f     3*float  12B             {32 32 32}
+[   0.092][d][vo/gpu/d3d11]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   0.093][d][vo/gpu/d3d11]   rgb10_a2   4*unorm   4B    LF CR ST {10 10 10 2}
+[   0.093][d][vo/gpu/d3d11]   bgra8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.093][d][vo/gpu/d3d11]   bgrx8      3*unorm   4B    LF CR    {8 8 8}
+[   0.093][d][vo/gpu/d3d11]  LA = LUMINANCE_ALPHA hack format
+[   0.093][d][vo/gpu/d3d11]  LF = linear filterable
+[   0.093][d][vo/gpu/d3d11]  CR = can be used for render targets
+[   0.093][d][vo/gpu/d3d11]  ST = can be used for storable images
+[   0.093][d][vo/gpu/d3d11] Image formats:
+[   0.093][d][vo/gpu/d3d11]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   uyvy422
+[   0.093][d][vo/gpu/d3d11]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.093][d][vo/gpu/d3d11]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   0.093][d][vo/gpu/d3d11]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   0.093][d][vo/gpu/d3d11]   bgr24
+[   0.093][d][vo/gpu/d3d11]   rgb24
+[   0.093][d][vo/gpu/d3d11]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.093][d][vo/gpu/d3d11]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   0.093][d][vo/gpu/d3d11]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   0.093][d][vo/gpu/d3d11]   rgb565
+[   0.093][d][vo/gpu/d3d11]   pal8
+[   0.093][d][vo/gpu/d3d11]   vdpau
+[   0.093][d][vo/gpu/d3d11]   d3d11
+[   0.093][d][vo/gpu/d3d11]   dxva2_vld
+[   0.093][d][vo/gpu/d3d11]   mmal
+[   0.093][d][vo/gpu/d3d11]   mediacodec
+[   0.093][d][vo/gpu/d3d11]   drm_prime
+[   0.093][d][vo/gpu/d3d11]   cuda
+[   0.093][d][vo/gpu/d3d11]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   grayaf32 => 2 planes 1x1 32/0 [r32f/r32f] (r/a) [float]
+[   0.093][d][vo/gpu/d3d11]   yuv444pf => 3 planes 1x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.093][d][vo/gpu/d3d11]   yuva444pf => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.093][d][vo/gpu/d3d11]   yuv420pf => 3 planes 2x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.093][d][vo/gpu/d3d11]   yuva420pf => 4 planes 2x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.093][d][vo/gpu/d3d11]   yuv422pf => 3 planes 2x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.093][d][vo/gpu/d3d11]   yuva422pf => 4 planes 2x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.093][d][vo/gpu/d3d11]   yuv440pf => 3 planes 1x2 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.093][d][vo/gpu/d3d11]   yuva440pf => 4 planes 1x2 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.093][d][vo/gpu/d3d11]   yuv410pf => 3 planes 4x4 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.093][d][vo/gpu/d3d11]   yuva410pf => 4 planes 4x4 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.093][d][vo/gpu/d3d11]   yuv411pf => 3 planes 4x1 32/0 [r32f/r32f/r32f] (r/g/b) [float]
+[   0.093][d][vo/gpu/d3d11]   yuva411pf => 4 planes 4x1 32/0 [r32f/r32f/r32f/r32f] (r/g/b/a) [float]
+[   0.093][d][vo/gpu/d3d11]   rgb30
+[   0.093][d][vo/gpu/d3d11]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   vdpau_output
+[   0.093][d][vo/gpu/d3d11]   vaapi
+[   0.093][d][vo/gpu/d3d11]   videotoolbox
+[   0.093][d][vo/gpu/d3d11]   yuyv422
+[   0.093][d][vo/gpu/d3d11]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   monow
+[   0.093][d][vo/gpu/d3d11]   monob
+[   0.093][d][vo/gpu/d3d11]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   uyyvyy411
+[   0.093][d][vo/gpu/d3d11]   bgr8
+[   0.093][d][vo/gpu/d3d11]   bgr4
+[   0.093][d][vo/gpu/d3d11]   bgr4_byte
+[   0.093][d][vo/gpu/d3d11]   rgb8
+[   0.093][d][vo/gpu/d3d11]   rgb4
+[   0.093][d][vo/gpu/d3d11]   rgb4_byte
+[   0.093][d][vo/gpu/d3d11]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gray16be
+[   0.093][d][vo/gpu/d3d11]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   rgb48be
+[   0.093][d][vo/gpu/d3d11]   rgb48
+[   0.093][d][vo/gpu/d3d11]   rgb565be
+[   0.093][d][vo/gpu/d3d11]   rgb555be
+[   0.093][d][vo/gpu/d3d11]   rgb555
+[   0.093][d][vo/gpu/d3d11]   bgr565be
+[   0.093][d][vo/gpu/d3d11]   bgr565
+[   0.093][d][vo/gpu/d3d11]   bgr555be
+[   0.093][d][vo/gpu/d3d11]   bgr555
+[   0.093][d][vo/gpu/d3d11]   vaapi_moco
+[   0.093][d][vo/gpu/d3d11]   vaapi_idct
+[   0.093][d][vo/gpu/d3d11]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv420p16be
+[   0.093][d][vo/gpu/d3d11]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv422p16be
+[   0.093][d][vo/gpu/d3d11]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv444p16be
+[   0.093][d][vo/gpu/d3d11]   rgb444
+[   0.093][d][vo/gpu/d3d11]   rgb444be
+[   0.093][d][vo/gpu/d3d11]   bgr444
+[   0.093][d][vo/gpu/d3d11]   bgr444be
+[   0.093][d][vo/gpu/d3d11]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   0.093][d][vo/gpu/d3d11]   bgr48be
+[   0.093][d][vo/gpu/d3d11]   bgr48
+[   0.093][d][vo/gpu/d3d11]   yuv420p9be
+[   0.093][d][vo/gpu/d3d11]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv420p10be
+[   0.093][d][vo/gpu/d3d11]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv422p10be
+[   0.093][d][vo/gpu/d3d11]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv444p9be
+[   0.093][d][vo/gpu/d3d11]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv444p10be
+[   0.093][d][vo/gpu/d3d11]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv422p9be
+[   0.093][d][vo/gpu/d3d11]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp9be
+[   0.093][d][vo/gpu/d3d11]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp10be
+[   0.093][d][vo/gpu/d3d11]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp16be
+[   0.093][d][vo/gpu/d3d11]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva420p9be
+[   0.093][d][vo/gpu/d3d11]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva422p9be
+[   0.093][d][vo/gpu/d3d11]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva444p9be
+[   0.093][d][vo/gpu/d3d11]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva420p10be
+[   0.093][d][vo/gpu/d3d11]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva422p10be
+[   0.093][d][vo/gpu/d3d11]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva444p10be
+[   0.093][d][vo/gpu/d3d11]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva420p16be
+[   0.093][d][vo/gpu/d3d11]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva422p16be
+[   0.093][d][vo/gpu/d3d11]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva444p16be
+[   0.093][d][vo/gpu/d3d11]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   xyz12
+[   0.093][d][vo/gpu/d3d11]   xyz12be
+[   0.093][d][vo/gpu/d3d11]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   nv20be
+[   0.093][d][vo/gpu/d3d11]   rgba64be
+[   0.093][d][vo/gpu/d3d11]   bgra64be
+[   0.093][d][vo/gpu/d3d11]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yvyu422
+[   0.093][d][vo/gpu/d3d11]   ya16be
+[   0.093][d][vo/gpu/d3d11]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrap16be
+[   0.093][d][vo/gpu/d3d11]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   qsv
+[   0.093][d][vo/gpu/d3d11]   d3d11va_vld
+[   0.093][d][vo/gpu/d3d11]   yuv420p12be
+[   0.093][d][vo/gpu/d3d11]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv420p14be
+[   0.093][d][vo/gpu/d3d11]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv422p12be
+[   0.093][d][vo/gpu/d3d11]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv422p14be
+[   0.093][d][vo/gpu/d3d11]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv444p12be
+[   0.093][d][vo/gpu/d3d11]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv444p14be
+[   0.093][d][vo/gpu/d3d11]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp12be
+[   0.093][d][vo/gpu/d3d11]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrp14be
+[   0.093][d][vo/gpu/d3d11]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   bayer_bggr8
+[   0.093][d][vo/gpu/d3d11]   bayer_rggb8
+[   0.093][d][vo/gpu/d3d11]   bayer_gbrg8
+[   0.093][d][vo/gpu/d3d11]   bayer_grbg8
+[   0.093][d][vo/gpu/d3d11]   bayer_bggr16
+[   0.093][d][vo/gpu/d3d11]   bayer_bggr16be
+[   0.093][d][vo/gpu/d3d11]   bayer_rggb16
+[   0.093][d][vo/gpu/d3d11]   bayer_rggb16be
+[   0.093][d][vo/gpu/d3d11]   bayer_gbrg16
+[   0.093][d][vo/gpu/d3d11]   bayer_gbrg16be
+[   0.093][d][vo/gpu/d3d11]   bayer_grbg16
+[   0.093][d][vo/gpu/d3d11]   bayer_grbg16be
+[   0.093][d][vo/gpu/d3d11]   xvmc
+[   0.093][d][vo/gpu/d3d11]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv440p10be
+[   0.093][d][vo/gpu/d3d11]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuv440p12be
+[   0.093][d][vo/gpu/d3d11]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   ayuv64be
+[   0.093][d][vo/gpu/d3d11]   p010be
+[   0.093][d][vo/gpu/d3d11]   gbrap12be
+[   0.093][d][vo/gpu/d3d11]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrap10be
+[   0.093][d][vo/gpu/d3d11]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gray12be
+[   0.093][d][vo/gpu/d3d11]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gray10be
+[   0.093][d][vo/gpu/d3d11]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   p016be
+[   0.093][d][vo/gpu/d3d11]   gray9be
+[   0.093][d][vo/gpu/d3d11]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   gbrpf32be
+[   0.093][d][vo/gpu/d3d11]   gbrpf32 => 3 planes 1x1 32/0 [r32f/r32f/r32f] (g/b/r) [float]
+[   0.093][d][vo/gpu/d3d11]   gbrapf32be
+[   0.093][d][vo/gpu/d3d11]   gbrapf32 => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (g/b/r/a) [float]
+[   0.093][d][vo/gpu/d3d11]   opencl
+[   0.093][d][vo/gpu/d3d11]   gray14be
+[   0.093][d][vo/gpu/d3d11]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   0.093][d][vo/gpu/d3d11]   grayf32be
+[   0.093][d][vo/gpu/d3d11]   grayf32 => 1 planes 1x1 32/0 [r32f] (r) [float]
+[   0.093][d][vo/gpu/d3d11]   yuva422p12be
+[   0.093][d][vo/gpu/d3d11]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   yuva444p12be
+[   0.093][d][vo/gpu/d3d11]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.093][d][vo/gpu/d3d11]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.093][d][vo/gpu/d3d11]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.093][d][vo/gpu/d3d11]   vulkan
+[   0.093][d][vo/gpu/d3d11]   y210be
+[   0.093][d][vo/gpu/d3d11]   y210
+[   0.093][v][vo/gpu] Testing FBO format rgba16hf
+[   0.093][d][vo/gpu] Resizing texture: 16x16
+[   0.093][v][vo/gpu] Using FBO format rgba16hf.
+[   0.093][v][vo/gpu] No advanced processing required. Enabling dumb mode.
+[   0.093][v][vo/gpu/win32] DPI detected from the new API: 192
+[   0.093][v][vo/gpu/win32] display-fps: 95.001000
+[   0.110][v][vo/gpu/win32] color-profile: C:\windows\system32\spool\drivers\color\sRGB Color Space Profile.icm
+[   0.110][v][vo/gpu] Assuming 95.001000 FPS for display sync.
+[   0.111][v][decode_wrapper/vd] Container reported FPS: 24.000000
+[   0.112][v][decode_wrapper/vd] Codec list:
+[   0.112][v][decode_wrapper/vd]     hevc - HEVC (High Efficiency Video Coding)
+[   0.112][v][decode_wrapper/vd]     hevc_qsv (hevc) - HEVC (Intel Quick Sync Video acceleration)
+[   0.112][v][decode_wrapper/vd]     hevc_cuvid (hevc) - Nvidia CUVID HEVC decoder
+[   0.112][v][decode_wrapper/vd] Opening decoder hevc
+[   0.112][v][decode_wrapper/vd] No hardware decoding requested.
+[   0.112][v][decode_wrapper/vd] Using software decoding.
+[   0.112][v][decode_wrapper/vd] Detected 16 logical cores.
+[   0.112][v][decode_wrapper/vd] Requesting 16 threads for decoding.
+[   0.113][v][decode_wrapper/vd] Selected codec: hevc (HEVC (High Efficiency Video Coding))
+[   0.113][v][vf] User filter list:
+[   0.113][v][vf]   (empty)
+[   0.114][v][decode_wrapper/ad] Codec list:
+[   0.114][v][decode_wrapper/ad]     flac - FLAC (Free Lossless Audio Codec)
+[   0.114][v][decode_wrapper/ad] Opening decoder flac
+[   0.114][v][decode_wrapper/ad] Requesting 1 threads for decoding.
+[   0.114][v][decode_wrapper/ad] Selected codec: flac (FLAC (Free Lossless Audio Codec))
+[   0.114][v][af] User filter list:
+[   0.114][v][af]   (empty)
+[   0.114][v][cplayer] Starting playback...
+[   0.114][d][cplayer] Run command: enable-section, flags=64, args=[name="input_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.115][d][decode_wrapper/vd] DR parameter change to 3840x2176 yuv420p10 align=64
+[   0.115][d][decode_wrapper/vd] Allocating new DR image...
+[   0.115][d][decode_wrapper/vd] ...failed..
+[   0.115][v][decode_wrapper/vd] DR failed - disabling.
+[   0.281][v][decode_wrapper/vd] Using software decoding.
+[   0.281][v][decode_wrapper/vd] Decoder format: 3840x2160 [0:1] yuv420p10 bt.2020-ncl/bt.2020/pq/limited/auto SP=15.050000 CL=unknown
+[   0.281][v][decode_wrapper/vd] Using container aspect ratio.
+[   0.281][v][vf] [in] 3840x2160 yuv420p10 bt.2020-ncl/bt.2020/pq/limited/display SP=15.050000 CL=mpeg2/4/h264
+[   0.281][v][vf] [userdeint] 3840x2160 yuv420p10 bt.2020-ncl/bt.2020/pq/limited/display SP=15.050000 CL=mpeg2/4/h264
+[   0.281][v][vf] [userdeint] (disabled)
+[   0.281][v][vf] [autorotate] 3840x2160 yuv420p10 bt.2020-ncl/bt.2020/pq/limited/display SP=15.050000 CL=mpeg2/4/h264
+[   0.281][v][vf] [autorotate] (disabled)
+[   0.281][v][vf] [convert] 3840x2160 yuv420p10 bt.2020-ncl/bt.2020/pq/limited/display SP=15.050000 CL=mpeg2/4/h264
+[   0.281][v][vf] [convert] (disabled)
+[   0.281][v][vf] [out] 3840x2160 yuv420p10 bt.2020-ncl/bt.2020/pq/limited/display SP=15.050000 CL=mpeg2/4/h264
+[   0.282][v][af] [in] 48000Hz stereo 2ch s32
+[   0.282][v][af] [userspeed] 48000Hz stereo 2ch s32
+[   0.282][v][af] [userspeed] (disabled)
+[   0.282][v][af] [convert] 48000Hz stereo 2ch s32
+[   0.282][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_osc", contents="", flags="force"]
+[   0.282][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.282][v][ao] Trying audio driver 'wasapi'
+[   0.282][v][ao/wasapi] requested format: 48000 Hz, stereo channels, s32
+[   0.282][d][ao/wasapi] Init wasapi
+[   0.282][d][ao/wasapi] Find device ''
+[   0.285][v][ao/wasapi] No device specified. Selecting default.
+[   0.288][v][ao/wasapi] Selecting device '{b151d386-8d78-4060-b19c-13f7396e890c}' (SPDIF 接口 (SC203 Speaker))
+[   0.288][v][ao/wasapi] Monitoring changes in device {0.0.0.00000000}.{b151d386-8d78-4060-b19c-13f7396e890c}
+[   0.294][d][ao/wasapi] Init wasapi thread
+[   0.295][d][ao/wasapi] Activating pAudioClient interface
+[   0.297][d][ao/wasapi] Probing formats
+[   0.298][v][ao/wasapi] Trying stereo float (32/32 bits) @ 48000hz (shared) -> ok
+[   0.298][v][ao/wasapi] Accepted as stereo float @ 48000hz -> stereo float (32/32 bits) @ 48000hz (shared)
+[   0.298][d][ao/wasapi] Fixing format
+[   0.298][d][ao/wasapi] IAudioClient::GetDevicePeriod
+[   0.299][v][ao/wasapi] Device period: 10 ms
+[   0.299][d][ao/wasapi] IAudioClient::Initialize
+[   0.306][d][ao/wasapi] IAudioClient::Initialize pRenderClient
+[   0.306][d][ao/wasapi] IAudioClient::Initialize IAudioClient_SetEventHandle
+[   0.306][d][ao/wasapi] IAudioClient::Initialize IAudioClient_GetBufferSize
+[   0.306][v][ao/wasapi] Buffer frame count: 2400 (50 ms)
+[   0.306][v][ao/wasapi] IAudioClock::GetFrequency gave a frequency of 384000.
+[   0.308][d][ao/wasapi] IAudioClient::Initialize pAudioVolume
+[   0.308][d][ao/wasapi] Entering dispatch loop
+[   0.308][d][ao/wasapi] Init wasapi done
+[   0.308][v][ao/wasapi] device buffer: 2400 samples.
+[   0.308][v][ao/wasapi] using soft-buffer of 9600 samples.
+[   0.309][i][cplayer] AO: [wasapi] 48000Hz stereo 2ch float
+[   0.309][v][cplayer] AO: Description: Windows WASAPI audio output (event mode)
+[   0.310][v][autoconvert] inserting resampler
+[   0.310][v][swresample] format change, reinitializing resampler
+[   0.310][v][swresample] 48000Hz stereo s32 -> 48000Hz stereo float
+[   0.310][v][af] [out] 48000Hz stereo 2ch float
+[   0.310][i][cplayer] VO: [gpu] 3840x2160 yuv420p10
+[   0.310][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   0.310][v][vo/gpu] reconfig to 3840x2160 yuv420p10 bt.2020-ncl/bt.2020/pq/limited/display SP=15.050000 CL=mpeg2/4/h264
+[   0.310][d][vo/gpu] screen size: 3592x2160
+[   0.310][v][vo/gpu/win32] reset window bounds: -2044:-1080:7680:4320
+[   0.311][v][vo/gpu/win32] adjusted window bounds: 13:78:3566:2005
+[   0.312][d][vo/gpu/win32] move window: 13:78
+[   0.312][v][vo/gpu/win32] resize window: 3566:2005
+[   0.321][v][vo/gpu/win32] resize window: 3566:2005
+[   0.321][d][vo/gpu/win32] move window: 13:78
+[   0.323][v][vo/gpu] Resize: 7680x4320
+[   0.323][v][vo/gpu] Window size: 7680x4320 (Borders: l=0 t=0 r=0 b=0)
+[   0.323][v][vo/gpu] Video source: 3840x2160 (1:1)
+[   0.323][v][vo/gpu] Video display: (0, 0) 3840x2160 -> (0, 0) 7680x4320
+[   0.323][v][vo/gpu] Video scale: 2.000000/2.000000
+[   0.323][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.323][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.323][v][vo/gpu] Reported display depth: 10
+[   0.323][v][vo/gpu] Texture for plane 0: 3840x2160
+[   0.323][v][vo/gpu] Texture for plane 1: 1920x1080
+[   0.324][v][vo/gpu] Texture for plane 2: 1920x1080
+[   0.324][v][vo/gpu] Testing FBO format rgba16hf
+[   0.324][d][vo/gpu] Resizing texture: 16x16
+[   0.324][v][vo/gpu] Using FBO format rgba16hf.
+[   0.324][v][vo/gpu] No advanced processing required. Enabling dumb mode.
+[   0.325][v][vo/gpu] Resize: 3566x2005
+[   0.325][v][vo/gpu] Window size: 3566x2005 (Borders: l=0 t=0 r=0 b=0)
+[   0.325][v][vo/gpu] Video source: 3840x2160 (1:1)
+[   0.325][v][vo/gpu] Video display: (0, 0) 3840x2160 -> (1, 0) 3564x2005
+[   0.325][v][vo/gpu] Video scale: 0.928125/0.928241
+[   0.325][v][vo/gpu] OSD borders: l=1 t=0 r=1 b=0
+[   0.325][v][vo/gpu] Video borders: l=1 t=0 r=1 b=0
+[   0.325][v][vo/gpu] Reported display depth: 10
+[   0.397][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   0.399][v][vo/gpu/d3d11] Compiled a vertex shader in 64998us
+[   0.399][v][vo/gpu/d3d11] shaderc: 62921us, SPIRV-Cross: 561us, D3DCompile: 1516us
+[   0.399][d][vo/gpu/d3d11] GLSL source:
+[   0.399][d][vo/gpu/d3d11] [  1] #version 450
+[   0.399][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   0.399][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   0.399][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.399][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   0.399][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord0;
+[   0.399][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord0;
+[   0.399][d][vo/gpu/d3d11] [  8] layout(location=2) in vec2 vertex_texcoord1;
+[   0.399][d][vo/gpu/d3d11] [  9] layout(location=2) out vec2 texcoord1;
+[   0.399][d][vo/gpu/d3d11] [ 10] layout(location=3) in vec2 vertex_texcoord2;
+[   0.399][d][vo/gpu/d3d11] [ 11] layout(location=3) out vec2 texcoord2;
+[   0.399][d][vo/gpu/d3d11] [ 12] void main() {
+[   0.399][d][vo/gpu/d3d11] [ 13] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.399][d][vo/gpu/d3d11] [ 14] texcoord0 = vertex_texcoord0;
+[   0.399][d][vo/gpu/d3d11] [ 15] texcoord1 = vertex_texcoord1;
+[   0.399][d][vo/gpu/d3d11] [ 16] texcoord2 = vertex_texcoord2;
+[   0.399][d][vo/gpu/d3d11] [ 17] }
+[   0.399][d][vo/gpu/d3d11] HLSL source:
+[   0.399][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   0.399][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   0.399][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   0.399][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   0.399][d][vo/gpu/d3d11] [  5] static float2 _30;
+[   0.399][d][vo/gpu/d3d11] [  6] static float2 _31;
+[   0.399][d][vo/gpu/d3d11] [  7] static float2 _33;
+[   0.399][d][vo/gpu/d3d11] [  8] static float2 _34;
+[   0.399][d][vo/gpu/d3d11] [  9] 
+[   0.399][d][vo/gpu/d3d11] [ 10] struct SPIRV_Cross_Input
+[   0.399][d][vo/gpu/d3d11] [ 11] {
+[   0.399][d][vo/gpu/d3d11] [ 12]     float2 _18 : TEXCOORD0;
+[   0.399][d][vo/gpu/d3d11] [ 13]     float2 _28 : TEXCOORD1;
+[   0.399][d][vo/gpu/d3d11] [ 14]     float2 _31 : TEXCOORD2;
+[   0.399][d][vo/gpu/d3d11] [ 15]     float2 _34 : TEXCOORD3;
+[   0.399][d][vo/gpu/d3d11] [ 16] };
+[   0.399][d][vo/gpu/d3d11] [ 17] 
+[   0.399][d][vo/gpu/d3d11] [ 18] struct SPIRV_Cross_Output
+[   0.399][d][vo/gpu/d3d11] [ 19] {
+[   0.399][d][vo/gpu/d3d11] [ 20]     float2 _27 : TEXCOORD1;
+[   0.399][d][vo/gpu/d3d11] [ 21]     float2 _30 : TEXCOORD2;
+[   0.399][d][vo/gpu/d3d11] [ 22]     float2 _33 : TEXCOORD3;
+[   0.399][d][vo/gpu/d3d11] [ 23]     float4 gl_Position : SV_Position;
+[   0.399][d][vo/gpu/d3d11] [ 24] };
+[   0.399][d][vo/gpu/d3d11] [ 25] 
+[   0.399][d][vo/gpu/d3d11] [ 26] void vert_main()
+[   0.399][d][vo/gpu/d3d11] [ 27] {
+[   0.399][d][vo/gpu/d3d11] [ 28]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   0.399][d][vo/gpu/d3d11] [ 29]     _27 = _28;
+[   0.399][d][vo/gpu/d3d11] [ 30]     _30 = _31;
+[   0.399][d][vo/gpu/d3d11] [ 31]     _33 = _34;
+[   0.399][d][vo/gpu/d3d11] [ 32]     gl_Position.y = -gl_Position.y;
+[   0.399][d][vo/gpu/d3d11] [ 33] }
+[   0.399][d][vo/gpu/d3d11] [ 34] 
+[   0.399][d][vo/gpu/d3d11] [ 35] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   0.399][d][vo/gpu/d3d11] [ 36] {
+[   0.399][d][vo/gpu/d3d11] [ 37]     _18 = stage_input._18;
+[   0.399][d][vo/gpu/d3d11] [ 38]     _28 = stage_input._28;
+[   0.399][d][vo/gpu/d3d11] [ 39]     _31 = stage_input._31;
+[   0.399][d][vo/gpu/d3d11] [ 40]     _34 = stage_input._34;
+[   0.399][d][vo/gpu/d3d11] [ 41]     vert_main();
+[   0.399][d][vo/gpu/d3d11] [ 42]     SPIRV_Cross_Output stage_output;
+[   0.399][d][vo/gpu/d3d11] [ 43]     stage_output.gl_Position = gl_Position;
+[   0.399][d][vo/gpu/d3d11] [ 44]     stage_output._27 = _27;
+[   0.399][d][vo/gpu/d3d11] [ 45]     stage_output._30 = _30;
+[   0.399][d][vo/gpu/d3d11] [ 46]     stage_output._33 = _33;
+[   0.400][d][vo/gpu/d3d11] [ 47]     return stage_output;
+[   0.400][d][vo/gpu/d3d11] [ 48] }
+[   0.403][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   0.413][v][vo/gpu/d3d11] Compiled a fragment shader in 13731us
+[   0.413][v][vo/gpu/d3d11] shaderc: 4094us, SPIRV-Cross: 510us, D3DCompile: 9127us
+[   0.413][d][vo/gpu/d3d11] GLSL source:
+[   0.413][d][vo/gpu/d3d11] [  1] #version 450
+[   0.413][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   0.413][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   0.413][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.413][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   0.413][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord0;
+[   0.413][d][vo/gpu/d3d11] [  7] layout(location=2) in vec2 texcoord1;
+[   0.413][d][vo/gpu/d3d11] [  8] layout(location=3) in vec2 texcoord2;
+[   0.413][d][vo/gpu/d3d11] [  9] layout(std140, binding=0) uniform UBO {
+[   0.413][d][vo/gpu/d3d11] [ 10] layout(offset=0) mat3 colormatrix;
+[   0.413][d][vo/gpu/d3d11] [ 11] layout(offset=48) vec3 colormatrix_c;
+[   0.413][d][vo/gpu/d3d11] [ 12] layout(offset=64) vec3 src_luma;
+[   0.413][d][vo/gpu/d3d11] [ 13] layout(offset=80) vec3 dst_luma;
+[   0.413][d][vo/gpu/d3d11] [ 14] layout(offset=96) vec2 texture_size0;
+[   0.413][d][vo/gpu/d3d11] [ 15] layout(offset=112) mat2 texture_rot0;
+[   0.413][d][vo/gpu/d3d11] [ 16] layout(offset=144) vec2 texture_off0;
+[   0.413][d][vo/gpu/d3d11] [ 17] layout(offset=152) vec2 pixel_size0;
+[   0.413][d][vo/gpu/d3d11] [ 18] layout(offset=160) vec2 texture_size1;
+[   0.413][d][vo/gpu/d3d11] [ 19] layout(offset=176) mat2 texture_rot1;
+[   0.413][d][vo/gpu/d3d11] [ 20] layout(offset=208) vec2 texture_off1;
+[   0.413][d][vo/gpu/d3d11] [ 21] layout(offset=216) vec2 pixel_size1;
+[   0.413][d][vo/gpu/d3d11] [ 22] layout(offset=224) vec2 texture_size2;
+[   0.413][d][vo/gpu/d3d11] [ 23] layout(offset=240) mat2 texture_rot2;
+[   0.413][d][vo/gpu/d3d11] [ 24] layout(offset=272) vec2 texture_off2;
+[   0.413][d][vo/gpu/d3d11] [ 25] layout(offset=280) vec2 pixel_size2;
+[   0.413][d][vo/gpu/d3d11] [ 26] };
+[   0.413][d][vo/gpu/d3d11] [ 27] layout(binding=0) uniform sampler2D texture0;
+[   0.413][d][vo/gpu/d3d11] [ 28] layout(binding=1) uniform sampler2D texture1;
+[   0.413][d][vo/gpu/d3d11] [ 29] layout(binding=2) uniform sampler2D texture2;
+[   0.413][d][vo/gpu/d3d11] [ 30] void main() {
+[   0.413][d][vo/gpu/d3d11] [ 31] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.413][d][vo/gpu/d3d11] [ 32] color.r = 64.250000 * vec4(texture(texture0, texcoord0)).r;
+[   0.413][d][vo/gpu/d3d11] [ 33] color.g = 64.250000 * vec4(texture(texture1, texcoord1)).r;
+[   0.413][d][vo/gpu/d3d11] [ 34] color.b = 64.250000 * vec4(texture(texture2, texcoord2)).r;
+[   0.413][d][vo/gpu/d3d11] [ 35] color = color.rgbr;
+[   0.413][d][vo/gpu/d3d11] [ 36] color.rgb = mat3(colormatrix) * color.rgb + colormatrix_c;
+[   0.413][d][vo/gpu/d3d11] [ 37] color.a = 1.0;
+[   0.413][d][vo/gpu/d3d11] [ 38] // color mapping
+[   0.413][d][vo/gpu/d3d11] [ 39] // linearize
+[   0.413][d][vo/gpu/d3d11] [ 40] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   0.413][d][vo/gpu/d3d11] [ 41] color.rgb = pow(color.rgb, vec3(1.0/78.843750));
+[   0.413][d][vo/gpu/d3d11] [ 42] color.rgb = max(color.rgb - vec3(0.835938), vec3(0.0)) 
+[   0.413][d][vo/gpu/d3d11] [ 43]              / (vec3(18.851562) - vec3(18.687500) * color.rgb);
+[   0.413][d][vo/gpu/d3d11] [ 44] color.rgb = pow(color.rgb, vec3(6.277395));
+[   0.413][d][vo/gpu/d3d11] [ 45] color.rgb *= vec3(100.000000);
+[   0.413][d][vo/gpu/d3d11] [ 46] color.rgb *= vec3(1.0/100.000000);
+[   0.413][d][vo/gpu/d3d11] [ 47] color.rgb *= vec3(100.000000);
+[   0.413][d][vo/gpu/d3d11] [ 48] color.rgb *= vec3(0.010000);
+[   0.413][d][vo/gpu/d3d11] [ 49] // delinearize
+[   0.413][d][vo/gpu/d3d11] [ 50] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   0.413][d][vo/gpu/d3d11] [ 51] color.rgb *= vec3(100.000000);
+[   0.413][d][vo/gpu/d3d11] [ 52] color.rgb *= vec3(1.0/100.000000);
+[   0.413][d][vo/gpu/d3d11] [ 53] color.rgb = pow(color.rgb, vec3(0.159302));
+[   0.413][d][vo/gpu/d3d11] [ 54] color.rgb = (vec3(0.835938) + vec3(18.851562) * color.rgb) 
+[   0.413][d][vo/gpu/d3d11] [ 55]              / (vec3(1.0) + vec3(18.687500) * color.rgb);
+[   0.413][d][vo/gpu/d3d11] [ 56] color.rgb = pow(color.rgb, vec3(78.843750));
+[   0.413][d][vo/gpu/d3d11] [ 57] out_color = color;
+[   0.413][d][vo/gpu/d3d11] [ 58] }
+[   0.413][d][vo/gpu/d3d11] HLSL source:
+[   0.413][d][vo/gpu/d3d11] [  1] cbuffer _68_70 : register(b0)
+[   0.413][d][vo/gpu/d3d11] [  2] {
+[   0.413][d][vo/gpu/d3d11] [  3]     row_major float3x3 _70_m0 : packoffset(c0);
+[   0.413][d][vo/gpu/d3d11] [  4]     float3 _70_m1 : packoffset(c3);
+[   0.413][d][vo/gpu/d3d11] [  5]     float3 _70_m2 : packoffset(c4);
+[   0.413][d][vo/gpu/d3d11] [  6]     float3 _70_m3 : packoffset(c5);
+[   0.413][d][vo/gpu/d3d11] [  7]     float2 _70_m4 : packoffset(c6);
+[   0.413][d][vo/gpu/d3d11] [  8]     row_major float2x2 _70_m5 : packoffset(c7);
+[   0.413][d][vo/gpu/d3d11] [  9]     float2 _70_m6 : packoffset(c9);
+[   0.413][d][vo/gpu/d3d11] [ 10]     float2 _70_m7 : packoffset(c9.z);
+[   0.413][d][vo/gpu/d3d11] [ 11]     float2 _70_m8 : packoffset(c10);
+[   0.413][d][vo/gpu/d3d11] [ 12]     row_major float2x2 _70_m9 : packoffset(c11);
+[   0.413][d][vo/gpu/d3d11] [ 13]     float2 _70_m10 : packoffset(c13);
+[   0.413][d][vo/gpu/d3d11] [ 14]     float2 _70_m11 : packoffset(c13.z);
+[   0.413][d][vo/gpu/d3d11] [ 15]     float2 _70_m12 : packoffset(c14);
+[   0.413][d][vo/gpu/d3d11] [ 16]     row_major float2x2 _70_m13 : packoffset(c15);
+[   0.413][d][vo/gpu/d3d11] [ 17]     float2 _70_m14 : packoffset(c17);
+[   0.413][d][vo/gpu/d3d11] [ 18]     float2 _70_m15 : packoffset(c17.z);
+[   0.413][d][vo/gpu/d3d11] [ 19] };
+[   0.413][d][vo/gpu/d3d11] [ 20] 
+[   0.413][d][vo/gpu/d3d11] [ 21] Texture2D<float4> _17 : register(t0);
+[   0.413][d][vo/gpu/d3d11] [ 22] SamplerState __17_sampler : register(s0);
+[   0.414][d][vo/gpu/d3d11] [ 23] Texture2D<float4> _35 : register(t1);
+[   0.414][d][vo/gpu/d3d11] [ 24] SamplerState __35_sampler : register(s1);
+[   0.414][d][vo/gpu/d3d11] [ 25] Texture2D<float4> _49 : register(t2);
+[   0.414][d][vo/gpu/d3d11] [ 26] SamplerState __49_sampler : register(s2);
+[   0.414][d][vo/gpu/d3d11] [ 27] 
+[   0.414][d][vo/gpu/d3d11] [ 28] static float2 _21;
+[   0.414][d][vo/gpu/d3d11] [ 29] static float2 _37;
+[   0.414][d][vo/gpu/d3d11] [ 30] static float2 _51;
+[   0.414][d][vo/gpu/d3d11] [ 31] static float4 _199;
+[   0.414][d][vo/gpu/d3d11] [ 32] 
+[   0.414][d][vo/gpu/d3d11] [ 33] struct SPIRV_Cross_Input
+[   0.414][d][vo/gpu/d3d11] [ 34] {
+[   0.414][d][vo/gpu/d3d11] [ 35]     float2 _21 : TEXCOORD1;
+[   0.414][d][vo/gpu/d3d11] [ 36]     float2 _37 : TEXCOORD2;
+[   0.414][d][vo/gpu/d3d11] [ 37]     float2 _51 : TEXCOORD3;
+[   0.414][d][vo/gpu/d3d11] [ 38] };
+[   0.414][d][vo/gpu/d3d11] [ 39] 
+[   0.414][d][vo/gpu/d3d11] [ 40] struct SPIRV_Cross_Output
+[   0.414][d][vo/gpu/d3d11] [ 41] {
+[   0.414][d][vo/gpu/d3d11] [ 42]     float4 _199 : SV_Target0;
+[   0.414][d][vo/gpu/d3d11] [ 43] };
+[   0.414][d][vo/gpu/d3d11] [ 44] 
+[   0.414][d][vo/gpu/d3d11] [ 45] static float4 _210;
+[   0.414][d][vo/gpu/d3d11] [ 46] 
+[   0.414][d][vo/gpu/d3d11] [ 47] void frag_main()
+[   0.414][d][vo/gpu/d3d11] [ 48] {
+[   0.414][d][vo/gpu/d3d11] [ 49]     float4 _202 = _210;
+[   0.414][d][vo/gpu/d3d11] [ 50]     _202.x = 64.25f * _17.Sample(__17_sampler, _21).x;
+[   0.414][d][vo/gpu/d3d11] [ 51]     float4 _204 = _202;
+[   0.414][d][vo/gpu/d3d11] [ 52]     _204.y = 64.25f * _35.Sample(__35_sampler, _37).x;
+[   0.414][d][vo/gpu/d3d11] [ 53]     float4 _206 = _204;
+[   0.414][d][vo/gpu/d3d11] [ 54]     _206.z = 64.25f * _49.Sample(__49_sampler, _51).x;
+[   0.414][d][vo/gpu/d3d11] [ 55]     float3 _87 = mul(_206.xyz, _70_m0) + _70_m1;
+[   0.414][d][vo/gpu/d3d11] [ 56]     float4 _208 = float4(_87.x, _87.y, _87.z, _206.x);
+[   0.414][d][vo/gpu/d3d11] [ 57]     _208.w = 1.0f;
+[   0.414][d][vo/gpu/d3d11] [ 58]     float3 _107 = pow(clamp(_208.xyz, 0.0f.xxx, 1.0f.xxx).xyz, 0.0126833133399486541748046875f.xxx).xyz;
+[   0.414][d][vo/gpu/d3d11] [ 59]     float3 _180 = pow(((clamp(((((pow((max(_107 - 0.835937976837158203125f.xxx, 0.0f.xxx) / (18.8515625f.xxx - (18.6875f.xxx * _107))).xyz, 6.277394771575927734375f.xxx).xyz * 100.0f.xxx).xyz * 0.00999999977648258209228515625f.xxx).xyz * 100.0f.xxx).xyz * 0.00999999977648258209228515625f.xxx).xyz, 0.0f.xxx, 1.0f.xxx).xyz * 100.0f.xxx).xyz * 0.00999999977648258209228515625f.xxx).xyz, 0.1593019962310791015625f.xxx).xyz;
+[   0.414][d][vo/gpu/d3d11] [ 60]     float3 _195 = pow(((0.835937976837158203125f.xxx + (18.8515625f.xxx * _180)) / (1.0f.xxx + (18.6875f.xxx * _180))).xyz, 78.84375f.xxx);
+[   0.414][d][vo/gpu/d3d11] [ 61]     _199 = float4(_195.x, _195.y, _195.z, _208.w);
+[   0.414][d][vo/gpu/d3d11] [ 62] }
+[   0.414][d][vo/gpu/d3d11] [ 63] 
+[   0.414][d][vo/gpu/d3d11] [ 64] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   0.414][d][vo/gpu/d3d11] [ 65] {
+[   0.414][d][vo/gpu/d3d11] [ 66]     _21 = stage_input._21;
+[   0.414][d][vo/gpu/d3d11] [ 67]     _37 = stage_input._37;
+[   0.414][d][vo/gpu/d3d11] [ 68]     _51 = stage_input._51;
+[   0.414][d][vo/gpu/d3d11] [ 69]     frag_main();
+[   0.414][d][vo/gpu/d3d11] [ 70]     SPIRV_Cross_Output stage_output;
+[   0.414][d][vo/gpu/d3d11] [ 71]     stage_output._199 = _199;
+[   0.414][d][vo/gpu/d3d11] [ 72]     return stage_output;
+[   0.414][d][vo/gpu/d3d11] [ 73] }
+[   0.418][v][cplayer] first video frame after restart shown
+[   0.419][d][osc] osc_init 
+[   0.419][v][cplayer] audio sync: sync_to_video=1, offset=0.000000
+[   0.419][d][cplayer] starting video playback
+[   0.419][d][cplayer] starting audio playback
+[   0.419][d][ao/wasapi] Thread Resume
+[   0.419][d][ao/wasapi] Thread Reset
+[   0.419][v][cplayer] playback restart complete @ 0.000000, audio=playing, video=playing
+[   0.420][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.420][v][cplayer] Set property: shared-script-properties -> 1
+[   0.427][d][osc] osc_init 
+[   0.427][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   0.427][v][cplayer] Set property: shared-script-properties -> 1
+[   2.606][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   2.606][v][cplayer] Set property: shared-script-properties -> 1
+[   2.612][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   2.648][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   2.650][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[   2.653][v][vo/gpu] Reallocating OSD texture to 4096x512.
+[   2.655][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   2.657][v][vo/gpu/d3d11] Compiled a vertex shader in 3237us
+[   2.657][v][vo/gpu/d3d11] shaderc: 1486us, SPIRV-Cross: 101us, D3DCompile: 1650us
+[   2.657][d][vo/gpu/d3d11] GLSL source:
+[   2.657][d][vo/gpu/d3d11] [  1] #version 450
+[   2.657][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   2.657][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   2.657][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   2.657][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   2.657][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord;
+[   2.657][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord;
+[   2.657][d][vo/gpu/d3d11] [  8] layout(location=2) in vec4 vertex_ass_color;
+[   2.657][d][vo/gpu/d3d11] [  9] layout(location=2) out vec4 ass_color;
+[   2.657][d][vo/gpu/d3d11] [ 10] void main() {
+[   2.657][d][vo/gpu/d3d11] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   2.657][d][vo/gpu/d3d11] [ 12] texcoord = vertex_texcoord;
+[   2.657][d][vo/gpu/d3d11] [ 13] ass_color = vertex_ass_color;
+[   2.657][d][vo/gpu/d3d11] [ 14] }
+[   2.657][d][vo/gpu/d3d11] HLSL source:
+[   2.657][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   2.657][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   2.657][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   2.657][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   2.657][d][vo/gpu/d3d11] [  5] static float4 _30;
+[   2.657][d][vo/gpu/d3d11] [  6] static float4 _32;
+[   2.657][d][vo/gpu/d3d11] [  7] 
+[   2.657][d][vo/gpu/d3d11] [  8] struct SPIRV_Cross_Input
+[   2.657][d][vo/gpu/d3d11] [  9] {
+[   2.657][d][vo/gpu/d3d11] [ 10]     float2 _18 : TEXCOORD0;
+[   2.657][d][vo/gpu/d3d11] [ 11]     float2 _28 : TEXCOORD1;
+[   2.657][d][vo/gpu/d3d11] [ 12]     float4 _32 : TEXCOORD2;
+[   2.657][d][vo/gpu/d3d11] [ 13] };
+[   2.657][d][vo/gpu/d3d11] [ 14] 
+[   2.657][d][vo/gpu/d3d11] [ 15] struct SPIRV_Cross_Output
+[   2.657][d][vo/gpu/d3d11] [ 16] {
+[   2.657][d][vo/gpu/d3d11] [ 17]     float2 _27 : TEXCOORD1;
+[   2.657][d][vo/gpu/d3d11] [ 18]     float4 _30 : TEXCOORD2;
+[   2.657][d][vo/gpu/d3d11] [ 19]     float4 gl_Position : SV_Position;
+[   2.657][d][vo/gpu/d3d11] [ 20] };
+[   2.657][d][vo/gpu/d3d11] [ 21] 
+[   2.657][d][vo/gpu/d3d11] [ 22] void vert_main()
+[   2.657][d][vo/gpu/d3d11] [ 23] {
+[   2.657][d][vo/gpu/d3d11] [ 24]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   2.657][d][vo/gpu/d3d11] [ 25]     _27 = _28;
+[   2.657][d][vo/gpu/d3d11] [ 26]     _30 = _32;
+[   2.657][d][vo/gpu/d3d11] [ 27]     gl_Position.y = -gl_Position.y;
+[   2.657][d][vo/gpu/d3d11] [ 28] }
+[   2.657][d][vo/gpu/d3d11] [ 29] 
+[   2.657][d][vo/gpu/d3d11] [ 30] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   2.657][d][vo/gpu/d3d11] [ 31] {
+[   2.657][d][vo/gpu/d3d11] [ 32]     _18 = stage_input._18;
+[   2.657][d][vo/gpu/d3d11] [ 33]     _28 = stage_input._28;
+[   2.657][d][vo/gpu/d3d11] [ 34]     _32 = stage_input._32;
+[   2.657][d][vo/gpu/d3d11] [ 35]     vert_main();
+[   2.657][d][vo/gpu/d3d11] [ 36]     SPIRV_Cross_Output stage_output;
+[   2.657][d][vo/gpu/d3d11] [ 37]     stage_output.gl_Position = gl_Position;
+[   2.657][d][vo/gpu/d3d11] [ 38]     stage_output._27 = _27;
+[   2.657][d][vo/gpu/d3d11] [ 39]     stage_output._30 = _30;
+[   2.657][d][vo/gpu/d3d11] [ 40]     return stage_output;
+[   2.657][d][vo/gpu/d3d11] [ 41] }
+[   2.660][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   2.668][v][vo/gpu/d3d11] Compiled a fragment shader in 11379us
+[   2.668][v][vo/gpu/d3d11] shaderc: 3122us, SPIRV-Cross: 355us, D3DCompile: 7902us
+[   2.668][d][vo/gpu/d3d11] GLSL source:
+[   2.668][d][vo/gpu/d3d11] [  1] #version 450
+[   2.668][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   2.668][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   2.669][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   2.669][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   2.669][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord;
+[   2.669][d][vo/gpu/d3d11] [  7] layout(location=2) in vec4 ass_color;
+[   2.669][d][vo/gpu/d3d11] [  8] layout(std140, binding=0) uniform UBO {
+[   2.669][d][vo/gpu/d3d11] [  9] layout(offset=0) vec3 src_luma;
+[   2.669][d][vo/gpu/d3d11] [ 10] layout(offset=16) vec3 dst_luma;
+[   2.669][d][vo/gpu/d3d11] [ 11] layout(offset=32) mat3 cms_matrix;
+[   2.669][d][vo/gpu/d3d11] [ 12] };
+[   2.669][d][vo/gpu/d3d11] [ 13] layout(binding=0) uniform sampler2D osdtex;
+[   2.669][d][vo/gpu/d3d11] [ 14] void main() {
+[   2.669][d][vo/gpu/d3d11] [ 15] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   2.669][d][vo/gpu/d3d11] [ 16] color = vec4(ass_color.rgb, ass_color.a * texture(osdtex, texcoord).r);
+[   2.669][d][vo/gpu/d3d11] [ 17] // color mapping
+[   2.669][d][vo/gpu/d3d11] [ 18] // linearize
+[   2.669][d][vo/gpu/d3d11] [ 19] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   2.669][d][vo/gpu/d3d11] [ 20] color.rgb = mix(color.rgb * vec3(1.0/12.92), pow((color.rgb + vec3(0.055))/vec3(1.055), vec3(2.4)), lessThan(vec3(0.04045), color.rgb));
+[   2.669][d][vo/gpu/d3d11] [ 21] color.rgb *= vec3(1.0/1.000000);
+[   2.669][d][vo/gpu/d3d11] [ 22] color.rgb *= vec3(1.000000);
+[   2.669][d][vo/gpu/d3d11] [ 23] color.rgb = cms_matrix * color.rgb;
+[   2.669][d][vo/gpu/d3d11] [ 24] color.rgb *= vec3(0.010000);
+[   2.669][d][vo/gpu/d3d11] [ 25] // delinearize
+[   2.669][d][vo/gpu/d3d11] [ 26] color.rgb = clamp(color.rgb, 0.0, 1.0);
+[   2.669][d][vo/gpu/d3d11] [ 27] color.rgb *= vec3(100.000000);
+[   2.669][d][vo/gpu/d3d11] [ 28] color.rgb *= vec3(1.0/100.000000);
+[   2.669][d][vo/gpu/d3d11] [ 29] color.rgb = pow(color.rgb, vec3(0.159302));
+[   2.669][d][vo/gpu/d3d11] [ 30] color.rgb = (vec3(0.835938) + vec3(18.851562) * color.rgb) 
+[   2.669][d][vo/gpu/d3d11] [ 31]              / (vec3(1.0) + vec3(18.687500) * color.rgb);
+[   2.669][d][vo/gpu/d3d11] [ 32] color.rgb = pow(color.rgb, vec3(78.843750));
+[   2.669][d][vo/gpu/d3d11] [ 33] out_color = color;
+[   2.669][d][vo/gpu/d3d11] [ 34] }
+[   2.669][d][vo/gpu/d3d11] HLSL source:
+[   2.669][d][vo/gpu/d3d11] [  1] cbuffer _85_87 : register(b0)
+[   2.669][d][vo/gpu/d3d11] [  2] {
+[   2.669][d][vo/gpu/d3d11] [  3]     float3 _87_m0 : packoffset(c0);
+[   2.669][d][vo/gpu/d3d11] [  4]     float3 _87_m1 : packoffset(c1);
+[   2.669][d][vo/gpu/d3d11] [  5]     row_major float3x3 _87_m2 : packoffset(c2);
+[   2.669][d][vo/gpu/d3d11] [  6] };
+[   2.669][d][vo/gpu/d3d11] [  7] 
+[   2.669][d][vo/gpu/d3d11] [  8] Texture2D<float4> _26 : register(t0);
+[   2.669][d][vo/gpu/d3d11] [  9] SamplerState __26_sampler : register(s0);
+[   2.669][d][vo/gpu/d3d11] [ 10] 
+[   2.669][d][vo/gpu/d3d11] [ 11] static float4 _14;
+[   2.669][d][vo/gpu/d3d11] [ 12] static float2 _30;
+[   2.669][d][vo/gpu/d3d11] [ 13] static float4 _156;
+[   2.669][d][vo/gpu/d3d11] [ 14] 
+[   2.669][d][vo/gpu/d3d11] [ 15] struct SPIRV_Cross_Input
+[   2.669][d][vo/gpu/d3d11] [ 16] {
+[   2.669][d][vo/gpu/d3d11] [ 17]     float2 _30 : TEXCOORD1;
+[   2.669][d][vo/gpu/d3d11] [ 18]     float4 _14 : TEXCOORD2;
+[   2.669][d][vo/gpu/d3d11] [ 19] };
+[   2.669][d][vo/gpu/d3d11] [ 20] 
+[   2.669][d][vo/gpu/d3d11] [ 21] struct SPIRV_Cross_Output
+[   2.669][d][vo/gpu/d3d11] [ 22] {
+[   2.669][d][vo/gpu/d3d11] [ 23]     float4 _156 : SV_Target0;
+[   2.669][d][vo/gpu/d3d11] [ 24] };
+[   2.669][d][vo/gpu/d3d11] [ 25] 
+[   2.669][d][vo/gpu/d3d11] [ 26] void frag_main()
+[   2.669][d][vo/gpu/d3d11] [ 27] {
+[   2.669][d][vo/gpu/d3d11] [ 28]     float4 _39 = float4(_14.xyz, _14.w * _26.Sample(__26_sampler, _30).x);
+[   2.669][d][vo/gpu/d3d11] [ 29]     float3 _48 = clamp(_39.xyz, 0.0f.xxx, 1.0f.xxx).xyz;
+[   2.669][d][vo/gpu/d3d11] [ 30]     float3 _51 = _48 * 0.077399380505084991455078125f.xxx;
+[   2.669][d][vo/gpu/d3d11] [ 31]     float3 _62 = pow((_48 + 0.054999999701976776123046875f.xxx) * 0.947867333889007568359375f.xxx, 2.400000095367431640625f.xxx);
+[   2.669][d][vo/gpu/d3d11] [ 32]     bool3 _69 = bool3(0.040449999272823333740234375f.xxx.x < _48.x, 0.040449999272823333740234375f.xxx.y < _48.y, 0.040449999272823333740234375f.xxx.z < _48.z);
+[   2.669][d][vo/gpu/d3d11] [ 33]     float3 _136 = pow(((clamp((mul(float3(_69.x ? _62.x : _51.x, _69.y ? _62.y : _51.y, _69.z ? _62.z : _51.z).xyz, _87_m2).xyz * 0.00999999977648258209228515625f.xxx).xyz, 0.0f.xxx, 1.0f.xxx).xyz * 100.0f.xxx).xyz * 0.00999999977648258209228515625f.xxx).xyz, 0.1593019962310791015625f.xxx).xyz;
+[   2.669][d][vo/gpu/d3d11] [ 34]     float3 _152 = pow(((0.835937976837158203125f.xxx + (18.8515625f.xxx * _136)) / (1.0f.xxx + (18.6875f.xxx * _136))).xyz, 78.84375f.xxx);
+[   2.669][d][vo/gpu/d3d11] [ 35]     _156 = float4(_152.x, _152.y, _152.z, _39.w);
+[   2.669][d][vo/gpu/d3d11] [ 36] }
+[   2.669][d][vo/gpu/d3d11] [ 37] 
+[   2.669][d][vo/gpu/d3d11] [ 38] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   2.669][d][vo/gpu/d3d11] [ 39] {
+[   2.669][d][vo/gpu/d3d11] [ 40]     _14 = stage_input._14;
+[   2.669][d][vo/gpu/d3d11] [ 41]     _30 = stage_input._30;
+[   2.669][d][vo/gpu/d3d11] [ 42]     frag_main();
+[   2.669][d][vo/gpu/d3d11] [ 43]     SPIRV_Cross_Output stage_output;
+[   2.669][d][vo/gpu/d3d11] [ 44]     stage_output._156 = _156;
+[   2.669][d][vo/gpu/d3d11] [ 45]     return stage_output;
+[   2.669][d][vo/gpu/d3d11] [ 46] }
+[   3.201][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[   3.438][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   3.438][v][cplayer] Set property: shared-script-properties -> 1
+[   3.438][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   5.189][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   5.189][v][cplayer] Set property: shared-script-properties -> 1
+[   5.199][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   6.183][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[   6.183][v][cplayer] Set property: shared-script-properties -> 1
+[   6.184][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   7.574][d][cplayer] Run command: script-binding, flags=73, args=[name="console/enable"]
+[   7.575][d][cplayer] Run command: enable-section, flags=64, args=[name="console-input", flags="allow-hide-cursor+allow-vo-dragging"]
+[   7.575][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   7.575][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   7.576][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="esc script-binding console/_console_1\nenter script-binding console/_console_2\nkp_enter script-binding console/_console_3\nshift+enter script-binding console/_console_4\nbs script-binding console/_console_5\nshift+bs script-binding console/_console_6\ndel script-binding console/_console_7\nshift+del script-binding console/_console_8\nins script-binding console/_console_9\nshift+ins script-binding console/_console_10\nmbtn_mid script-binding console/_console_11\nleft script-binding console/_console_12\nright script-binding console/_console_13\nup script-binding console/_console_14\nwheel_up script-binding console/_console_15\ndown script-binding console/_console_16\nwheel_down script-binding console/_console_17\nwheel_left script-binding console/_console_18\nwheel_right script-binding console/_console_19\nctrl+left script-binding console/_console_20\nctrl+right script-binding console/_console_21\ntab script-binding console/_console_22\nhome script-binding console/_console_23\nend script-binding console/_console_24\npgup script-binding console/_console_25\npgdwn script-binding console/_console_26\nctrl+c script-binding console/_console_27\nctrl+d script-binding console/_console_28\nctrl+k script-binding console/_console_29\nctrl+l script-binding console/_console_30\nctrl+u script-binding console/_console_31\nctrl+v script-binding console/_console_32\nmeta+v script-binding console/_console_33\nctrl+w script-binding console/_console_34\nkp_dec script-binding console/_console_35\nkp0 script-binding console/_console_36\nkp1 script-binding console/_console_37\nkp2 script-binding console/_console_38\nkp3 script-binding console/_console_39\nkp4 script-binding console/_console_40\nkp5 script-binding console/_console_41\nkp6 script-binding console/_console_42\nkp7 script-binding console/_console_43\nkp8 script-binding console/_console_44\nkp9 script-binding console/_console_45\nany_unicode script-binding console/_console_text\n", flags="force"]
+[   7.576][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   7.578][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   7.578][v][osd/libass] fontselect: (Consolas, 400, 0) -> Consolas, 0, Consolas
+[   7.665][d][cplayer] Run command: script-binding, flags=73, args=[name="console/enable"]
+[   9.432][d][cplayer] Run command: script-binding, flags=73, args=[name="console/_console_1"]
+[   9.434][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   9.434][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   9.434][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   9.434][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   9.509][d][cplayer] Run command: script-binding, flags=73, args=[name="console/_console_1"]
+[  13.899][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  13.899][v][cplayer] Set property: shared-script-properties -> 1
+[  13.899][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  14.934][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  14.934][v][cplayer] Set property: shared-script-properties -> 1
+[  14.934][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  15.948][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  15.948][v][cplayer] Set property: shared-script-properties -> 1
+[  15.961][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  16.945][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  16.946][d][cplayer] Run command: seek, flags=64, args=[target="16.179582", flags="absolute-percent", legacy="exact"]
+[  16.946][v][mkv] queuing seek to 42.565890
+[  16.946][v][mkv] execute seek (to 42.565890 flags 32)
+[  16.946][d][ao/wasapi] Thread Reset
+[  16.946][v][file] stream level seek from 59101013 to 318363722
+[  16.946][v][mkv] seek done
+[  16.988][v][cplayer] hr-seek, skipping to 42.565890
+[  17.093][v][decode_wrapper/vd] Decoder format: 3840x2160 [0:1] yuv420p10 bt.2020-ncl/bt.2020/pq/limited/auto SP=15.050000 CL=unknown
+[  17.093][v][decode_wrapper/vd] Using container aspect ratio.
+[  17.094][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  17.219][v][cplayer] first video frame after restart shown
+[  17.220][v][cplayer] audio sync: sync_to_video=1, offset=-0.343000
+[  17.220][v][cplayer] audio sync: sync_to_video=1, offset=-0.132333
+[  17.221][d][cplayer] starting video playback
+[  17.221][d][cplayer] starting audio playback
+[  17.221][d][ao/wasapi] Thread Resume
+[  17.221][d][ao/wasapi] Thread Reset
+[  17.221][v][cplayer] playback restart complete @ 42.583000, audio=playing, video=playing
+[  21.036][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  21.036][v][cplayer] Set property: shared-script-properties -> 1
+[  21.036][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  22.328][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  22.328][v][cplayer] Set property: shared-script-properties -> 1
+[  22.351][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  23.003][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  23.003][d][cplayer] Run command: seek, flags=64, args=[target="35.472851", flags="absolute-percent", legacy="exact"]
+[  23.003][v][mkv] queuing seek to 93.323396
+[  23.003][d][ao/wasapi] Thread Reset
+[  23.003][v][mkv] execute seek (to 93.323396 flags 32)
+[  23.003][v][file] stream level seek from 358475159 to 630411378
+[  23.003][v][mkv] seek done
+[  23.022][v][cplayer] hr-seek, skipping to 93.323396
+[  23.023][d][cplayer] Run command: seek, flags=64, args=[target="35.416438", flags="absolute-percent", legacy="unused"]
+[  23.181][v][decode_wrapper/vd] Decoder format: 3840x2160 [0:1] yuv420p10 bt.2020-ncl/bt.2020/pq/limited/auto SP=15.050000 CL=unknown
+[  23.181][v][decode_wrapper/vd] Using container aspect ratio.
+[  23.181][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  23.324][v][mkv] queuing seek to 93.174982
+[  23.324][d][ao/wasapi] Thread Reset
+[  23.324][v][mkv] execute seek (to 93.174982 flags 0)
+[  23.324][v][file] stream level seek from 647784038 to 630411378
+[  23.324][v][mkv] seek done
+[  23.585][v][decode_wrapper/vd] Decoder format: 3840x2160 [0:1] yuv420p10 bt.2020-ncl/bt.2020/pq/limited/auto SP=15.050000 CL=unknown
+[  23.585][v][decode_wrapper/vd] Using container aspect ratio.
+[  23.600][v][cplayer] first video frame after restart shown
+[  23.600][v][cplayer] audio sync: sync_to_video=1, offset=0.051000
+[  23.600][d][cplayer] starting video playback
+[  23.600][d][cplayer] starting audio playback
+[  23.600][d][ao/wasapi] Thread Resume
+[  23.600][d][ao/wasapi] Thread Reset
+[  23.600][v][cplayer] playback restart complete @ 91.000000, audio=playing, video=playing
+[  25.580][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  25.580][d][cplayer] Run command: seek, flags=64, args=[target="30.621327", flags="absolute-percent", legacy="exact"]
+[  25.582][v][mkv] queuing seek to 80.559813
+[  25.582][v][mkv] execute seek (to 80.559813 flags 32)
+[  25.582][v][file] stream level seek from 655755729 to 565768857
+[  25.582][v][mkv] seek done
+[  25.582][d][ao/wasapi] Thread Reset
+[  25.644][v][cplayer] hr-seek, skipping to 80.559813
+[  25.645][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  25.749][v][decode_wrapper/vd] Decoder format: 3840x2160 [0:1] yuv420p10 bt.2020-ncl/bt.2020/pq/limited/auto SP=15.050000 CL=unknown
+[  25.749][v][decode_wrapper/vd] Using container aspect ratio.
+[  26.163][v][cplayer] first video frame after restart shown
+[  26.163][v][cplayer] audio sync: sync_to_video=1, offset=-1.735000
+[  26.163][v][cplayer] audio sync: sync_to_video=1, offset=-1.524333
+[  26.164][v][cplayer] audio sync: sync_to_video=1, offset=-1.313667
+[  26.164][v][cplayer] audio sync: sync_to_video=1, offset=-1.097667
+[  26.164][v][cplayer] audio sync: sync_to_video=1, offset=-0.887000
+[  26.165][v][cplayer] audio sync: sync_to_video=1, offset=-0.671000
+[  26.165][v][cplayer] audio sync: sync_to_video=1, offset=-0.460333
+[  26.166][v][cplayer] audio sync: sync_to_video=1, offset=-0.244333
+[  26.166][v][cplayer] audio sync: sync_to_video=1, offset=-0.033667
+[  26.166][d][cplayer] starting video playback
+[  26.166][d][cplayer] starting audio playback
+[  26.166][d][ao/wasapi] Thread Resume
+[  26.166][d][ao/wasapi] Thread Reset
+[  26.166][v][cplayer] playback restart complete @ 80.583000, audio=playing, video=playing
+[  26.741][d][cplayer] Run command: cycle, flags=73, args=[name="fullscreen", value="1.000000"]
+[  26.741][v][cplayer] Set property: fullscreen -> 1
+[  26.741][d][osc] osc_init 
+[  26.741][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  26.741][v][cplayer] Set property: shared-script-properties -> 1
+[  26.762][v][vo/gpu/win32] save window bounds: 13:78:3566:2005
+[  26.762][v][vo/gpu/win32] reset window bounds: 0:0:3840:2160
+[  26.765][d][vo/gpu/win32] move window: 0:0
+[  26.765][v][vo/gpu/win32] resize window: 3840:2160
+[  26.765][v][vo/gpu/d3d11] Disabling full-screen exclusive mode while entering fullscreen
+[  26.769][v][vo/gpu] Resize: 3840x2160
+[  26.769][v][vo/gpu] Window size: 3840x2160 (Borders: l=0 t=0 r=0 b=0)
+[  26.769][v][vo/gpu] Video source: 3840x2160 (1:1)
+[  26.769][v][vo/gpu] Video display: (0, 0) 3840x2160 -> (0, 0) 3840x2160
+[  26.769][v][vo/gpu] Video scale: 1.000000/1.000000
+[  26.769][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[  26.769][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[  26.769][v][vo/gpu] Reported display depth: 10
+[  26.769][v][vo/gpu] Resize: 3840x2160
+[  26.769][v][vo/gpu] Window size: 3840x2160 (Borders: l=0 t=0 r=0 b=0)
+[  26.769][v][vo/gpu] Video source: 3840x2160 (1:1)
+[  26.769][v][vo/gpu] Video display: (0, 0) 3840x2160 -> (0, 0) 3840x2160
+[  26.769][v][vo/gpu] Video scale: 1.000000/1.000000
+[  26.769][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[  26.769][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[  26.769][v][vo/gpu] Reported display depth: 10
+[  26.769][d][osc] osc_init 
+[  26.770][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  26.770][v][cplayer] Set property: shared-script-properties -> 1
+[  27.508][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  27.508][v][cplayer] Set property: shared-script-properties -> 1
+[  27.509][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  35.561][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  35.561][v][cplayer] Set property: shared-script-properties -> 1
+[  35.587][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  36.551][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  36.551][v][cplayer] Set property: shared-script-properties -> 1
+[  36.552][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  37.739][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  37.740][v][cplayer] Set property: shared-script-properties -> 1
+[  37.740][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  40.046][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  40.046][v][cplayer] Set property: shared-script-properties -> 1
+[  40.047][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  41.221][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  41.221][v][cplayer] Set property: shared-script-properties -> 1
+[  41.222][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[  52.400][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  52.400][d][cplayer] Run command: seek, flags=64, args=[target="94.287212", flags="absolute-percent", legacy="exact"]
+[  52.400][v][mkv] queuing seek to 248.054568
+[  52.401][d][ao/wasapi] Thread Reset
+[  52.401][v][mkv] execute seek (to 248.054568 flags 32)
+[  52.401][v][file] stream level seek from 738104431 to 1203261497
+[  52.401][v][mkv] seek done
+[  52.428][v][cplayer] hr-seek, skipping to 248.054568
+[  52.469][v][decode_wrapper/vd] Decoder format: 3840x2160 [0:1] yuv420p10 bt.2020-ncl/bt.2020/pq/limited/auto SP=15.050000 CL=unknown
+[  52.469][v][decode_wrapper/vd] Using container aspect ratio.
+[  52.492][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding5"]
+[  53.233][v][cplayer] first video frame after restart shown
+[  53.258][v][cplayer] audio sync: sync_to_video=1, offset=-13.075000
+[  53.258][v][cplayer] audio sync: sync_to_video=1, offset=-12.864333
+[  53.258][v][cplayer] audio sync: sync_to_video=1, offset=-12.653667
+[  53.258][v][cplayer] audio sync: sync_to_video=1, offset=-12.437667
+[  53.259][v][cplayer] audio sync: sync_to_video=1, offset=-12.227000
+[  53.259][v][cplayer] audio sync: sync_to_video=1, offset=-12.011000
+[  53.259][v][cplayer] audio sync: sync_to_video=1, offset=-11.800333
+[  53.259][v][cplayer] audio sync: sync_to_video=1, offset=-11.584333
+[  53.260][v][cplayer] audio sync: sync_to_video=1, offset=-11.373667
+[  53.260][v][cplayer] audio sync: sync_to_video=1, offset=-11.157667
+[  53.260][v][cplayer] audio sync: sync_to_video=1, offset=-10.947000
+[  53.260][v][cplayer] audio sync: sync_to_video=1, offset=-10.731000
+[  53.261][v][cplayer] audio sync: sync_to_video=1, offset=-10.520333
+[  53.261][v][cplayer] audio sync: sync_to_video=1, offset=-10.304333
+[  53.261][v][cplayer] audio sync: sync_to_video=1, offset=-10.093667
+[  53.261][v][cplayer] audio sync: sync_to_video=1, offset=-9.877667
+[  53.262][v][cplayer] audio sync: sync_to_video=1, offset=-9.667000
+[  53.262][v][cplayer] audio sync: sync_to_video=1, offset=-9.451000
+[  53.262][v][cplayer] audio sync: sync_to_video=1, offset=-9.240333
+[  53.262][v][cplayer] audio sync: sync_to_video=1, offset=-9.024333
+[  53.262][v][cplayer] audio sync: sync_to_video=1, offset=-8.813667
+[  53.263][v][cplayer] audio sync: sync_to_video=1, offset=-8.597667
+[  53.263][v][cplayer] audio sync: sync_to_video=1, offset=-8.387000
+[  53.263][v][cplayer] audio sync: sync_to_video=1, offset=-8.171000
+[  53.263][v][cplayer] audio sync: sync_to_video=1, offset=-7.960333
+[  53.264][v][cplayer] audio sync: sync_to_video=1, offset=-7.744333
+[  53.264][v][cplayer] audio sync: sync_to_video=1, offset=-7.533667
+[  53.264][v][cplayer] audio sync: sync_to_video=1, offset=-7.317667
+[  53.264][v][cplayer] audio sync: sync_to_video=1, offset=-7.107000
+[  53.265][v][cplayer] audio sync: sync_to_video=1, offset=-6.891000
+[  53.265][v][cplayer] audio sync: sync_to_video=1, offset=-6.680333
+[  53.265][v][cplayer] audio sync: sync_to_video=1, offset=-6.464333
+[  53.266][v][cplayer] audio sync: sync_to_video=1, offset=-6.253667
+[  53.266][v][cplayer] audio sync: sync_to_video=1, offset=-6.037667
+[  53.266][v][cplayer] audio sync: sync_to_video=1, offset=-5.827000
+[  53.266][v][cplayer] audio sync: sync_to_video=1, offset=-5.611000
+[  53.267][v][cplayer] audio sync: sync_to_video=1, offset=-5.400333
+[  53.267][v][cplayer] audio sync: sync_to_video=1, offset=-5.184333
+[  53.267][v][cplayer] audio sync: sync_to_video=1, offset=-4.973667
+[  53.267][v][cplayer] audio sync: sync_to_video=1, offset=-4.757667
+[  53.268][v][cplayer] audio sync: sync_to_video=1, offset=-4.547000
+[  53.268][v][cplayer] audio sync: sync_to_video=1, offset=-4.331000
+[  53.268][v][cplayer] audio sync: sync_to_video=1, offset=-4.120333
+[  53.269][v][cplayer] audio sync: sync_to_video=1, offset=-3.904333
+[  53.269][v][cplayer] audio sync: sync_to_video=1, offset=-3.693667
+[  53.269][v][cplayer] audio sync: sync_to_video=1, offset=-3.477667
+[  53.270][v][cplayer] audio sync: sync_to_video=1, offset=-3.267000
+[  53.270][v][cplayer] audio sync: sync_to_video=1, offset=-3.051000
+[  53.270][v][cplayer] audio sync: sync_to_video=1, offset=-2.840333
+[  53.270][v][cplayer] audio sync: sync_to_video=1, offset=-2.624333
+[  53.271][v][cplayer] audio sync: sync_to_video=1, offset=-2.413667
+[  53.271][v][cplayer] audio sync: sync_to_video=1, offset=-2.197667
+[  53.271][v][cplayer] audio sync: sync_to_video=1, offset=-1.987000
+[  53.271][v][cplayer] audio sync: sync_to_video=1, offset=-1.771000
+[  53.272][v][cplayer] audio sync: sync_to_video=1, offset=-1.560333
+[  53.272][v][cplayer] audio sync: sync_to_video=1, offset=-1.344333
+[  53.272][v][cplayer] audio sync: sync_to_video=1, offset=-1.133667
+[  53.272][v][cplayer] audio sync: sync_to_video=1, offset=-0.917667
+[  53.272][v][cplayer] audio sync: sync_to_video=1, offset=-0.707000
+[  53.273][v][cplayer] audio sync: sync_to_video=1, offset=-0.491000
+[  53.273][v][cplayer] audio sync: sync_to_video=1, offset=-0.280333
+[  53.273][v][cplayer] audio sync: sync_to_video=1, offset=-0.064333
+[  53.273][d][cplayer] starting video playback
+[  53.273][d][cplayer] starting audio playback
+[  53.274][d][ao/wasapi] Thread Resume
+[  53.274][d][ao/wasapi] Thread Reset
+[  53.274][v][cplayer] playback restart complete @ 248.083000, audio=playing, video=playing
+[  54.061][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding2"]
+[  54.298][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  54.298][v][cplayer] Set property: shared-script-properties -> 1
+[  54.298][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[  56.952][d][cplayer] Run command: set, flags=73, args=[name="fullscreen", value="no"]
+[  56.952][v][vo/gpu/d3d11] Disabling full-screen exclusive mode while leaving fullscreen
+[  56.952][v][cplayer] Set property: fullscreen=no -> 1
+[  56.953][d][osc] osc_init 
+[  56.953][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  56.953][v][cplayer] Set property: shared-script-properties -> 1
+[  56.954][v][vo/gpu/win32] reset window bounds: 13:78:3566:2005
+[  56.962][d][vo/gpu/win32] move window: 13:78
+[  56.962][v][vo/gpu/win32] resize window: 3566:2005
+[  56.965][v][vo/gpu] Resize: 3566x2005
+[  56.965][v][vo/gpu] Window size: 3566x2005 (Borders: l=0 t=0 r=0 b=0)
+[  56.965][v][vo/gpu] Video source: 3840x2160 (1:1)
+[  56.965][v][vo/gpu] Video display: (0, 0) 3840x2160 -> (1, 0) 3564x2005
+[  56.965][v][vo/gpu] Video scale: 0.928125/0.928241
+[  56.965][v][vo/gpu] OSD borders: l=1 t=0 r=1 b=0
+[  56.965][v][vo/gpu] Video borders: l=1 t=0 r=1 b=0
+[  56.965][v][vo/gpu] Reported display depth: 10
+[  56.965][v][vo/gpu] Resize: 3566x2005
+[  56.965][v][vo/gpu] Window size: 3566x2005 (Borders: l=0 t=0 r=0 b=0)
+[  56.965][v][vo/gpu] Video source: 3840x2160 (1:1)
+[  56.965][v][vo/gpu] Video display: (0, 0) 3840x2160 -> (1, 0) 3564x2005
+[  56.965][v][vo/gpu] Video scale: 0.928125/0.928241
+[  56.965][v][vo/gpu] OSD borders: l=1 t=0 r=1 b=0
+[  56.965][v][vo/gpu] Video borders: l=1 t=0 r=1 b=0
+[  56.965][v][vo/gpu] Reported display depth: 10
+[  56.965][d][osc] osc_init 
+[  56.966][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="append", value="osc-margins=0.000000,0.000000,0.000000,0.000000"]
+[  56.966][v][cplayer] Set property: shared-script-properties -> 1
+[  57.920][d][cplayer] Run command: script-binding, flags=73, args=[name="osc/__keybinding4"]
+[  60.525][d][cplayer] Run command: quit, flags=73, args=[code="0"]
+[  60.525][v][cplayer] EOF code: 5  
+[  60.525][d][decode_wrapper/ad] Uninit decoder.
+[  60.525][d][ao/wasapi] Thread Reset
+[  60.526][d][decode_wrapper/vd] Uninit decoder.
+[  60.556][d][cplayer] Terminating demuxers...
+[  60.558][d][cplayer] Done terminating demuxers.
+[  60.558][v][cplayer] finished playback, success (reason 3)
+[  60.558][i][cplayer] 
+[  60.560][i][cplayer] Exiting... (Quit)
+[  60.560][d][ytdl_hook] Exiting...
+[  60.560][d][console] Exiting...
+[  60.560][d][stats] Exiting...
+[  60.561][d][cplayer] Run command: change-list, flags=64, args=[name="shared-script-properties", operation="remove", value="osc-margins"]
+[  60.561][v][cplayer] Set property: shared-script-properties -> 1
+[  60.561][d][osc] Exiting...
+[  60.563][d][ao/wasapi] Uninit wasapi
+[  60.563][d][ao/wasapi] Thread Reset
+[  60.563][d][ao/wasapi] Thread Reset
+[  60.563][d][ao/wasapi] Thread shutdown
+[  60.566][d][ao/wasapi] Thread uninit done
+[  60.566][d][ao/wasapi] Thread return
+[  60.567][d][ao/wasapi] Uninit wasapi done
+[  60.609][d][vo/gpu] flushing shader cache
+[  60.619][v][vo/gpu/win32] uninit
